@@ -1,4 +1,5 @@
-﻿using Automation.ConfigurationFolder.ConfigurationsObjectFolder;
+﻿using Automation.ConfigurationFoldee.ConfigurationsJsonObject;
+using Automation.ConfigurationFolder.ConfigurationsObjectFolder;
 
 namespace Automation.ConfigurationFolder.ConfigurationsObjectFolder
 {

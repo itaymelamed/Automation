@@ -27,7 +27,6 @@ namespace Automation.PagesObjects.ExternalPagesobjects
             _browser = browser;
             _driver = browser.Driver;
             _browserHelper = browser.BrowserHelper;
-            PageFactory.InitElements(_driver, this);
         }
 
         public HomePage Login(IUser user)

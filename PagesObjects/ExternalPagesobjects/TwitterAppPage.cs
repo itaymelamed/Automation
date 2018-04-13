@@ -21,7 +21,6 @@ namespace Automation.PagesObjects.ExternalPagesobjects
             _browser = browser;
             _driver = browser.Driver;
             _browserHelper = browser.BrowserHelper;
-            PageFactory.InitElements(_driver, this);
         }
 
         IWebElement SearchTweet(string title)

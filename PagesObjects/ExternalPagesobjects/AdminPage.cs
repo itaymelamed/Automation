@@ -29,7 +29,6 @@ namespace Automation.PagesObjects
             _browser = browser;
             _driver = browser.Driver;
             _browserHelper = browser.BrowserHelper;
-            PageFactory.InitElements(_driver, this);
         }
 
         public CastrPage ClickOnCasterLink()

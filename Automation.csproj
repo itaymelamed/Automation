@@ -12,4 +12,14 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.6.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ApiFolder\" />
+    <Folder Include="BrowserFolder\" />
+    <Folder Include="ConfigurationFoldee\" />
+    <Folder Include="Helpersobjects\" />
+    <Folder Include="MongoDbObject\" />
+    <Folder Include="PagesObjects\" />
+    <Folder Include="TestsFolder\" />
+    <Folder Include="TestsObject\" />
+  </ItemGroup>
 </Project>

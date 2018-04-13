@@ -65,6 +65,11 @@ namespace Automation.PagesObjects
             _browserHelper = browser.BrowserHelper;
         }
 
+        public HomePage()
+        {
+            
+        }
+
         public FaceBookconnectPage ClickOnConnectBtn()
         {
             _browserHelper.WaitForElement(connectBtn, "Connect Button");

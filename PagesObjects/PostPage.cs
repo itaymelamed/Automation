@@ -67,6 +67,10 @@ namespace Automation.PagesObjects
             VideoPlayer = new VideoPlayer(_browser);
         }
 
+        public PostPage()
+        {
+        }
+
         public string ValidateComponents(BsonArray components)
         {
             var errors = string.Empty;

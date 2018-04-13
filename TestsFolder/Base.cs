@@ -5,6 +5,8 @@ using Automation.TestsObjects;
 using Automation.MongoDbObject;
 using static Automation.TestsObjects.Result;
 using Automation.TestsObject;
+using Automation.PagesObjects;
+using Automation.BrowserFolder;
 
 namespace Automation.TestsFolder
 {
@@ -20,6 +22,12 @@ namespace Automation.TestsFolder
         [SetUp]
         public void InitTest()
         {
+            var a = TestContext.Parameters.Get("test", "hello").ToString();
+            if (a == "test")
+                throw new System.Exception("yes");
+            PostPage postPage = new PostPage();
+            HomePage homePage = postPage;
+
             lock (_syncObject)
             {
                 _config = _config ?? new Configurations();

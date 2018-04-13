@@ -13,7 +13,7 @@ namespace Automation.TestsFolder.AdminTestsFolder
             [Test]
             [Property("TestCaseId", "1")]
             [Category("Sanity")][Category("Admin")][Category("AllBrands")]
-            [Retry(2)]
+            [Retry(1)]
             public void Admin_LoginAsAdmin()
             {
                 _browser.Navigate(_config.Url);

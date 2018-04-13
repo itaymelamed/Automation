@@ -22,7 +22,7 @@ namespace Automation.TestsFolder
         [SetUp]
         public void InitTest()
         {
-            var a = TestContext.Parameters.Get("test", "hello").ToString();
+            var a = TestContext.Parameters.Get("run", "hello");
             if (a == "hello")
                 throw new System.Exception("yes");
             PostPage postPage = new PostPage();

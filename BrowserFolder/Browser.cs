@@ -205,8 +205,8 @@ namespace Automation.BrowserFolder
             capabilities.SetCapability("version", "70.0");
             if(!proxy)
             {
-                capabilities.SetCapability("enableVNC", true);
-                capabilities.SetCapability("enableVideo", true);
+                capabilities.SetCapability("enableVNC", false);
+                capabilities.SetCapability("enableVideo", false);
             }
             capabilities.SetCapability("videoName", $"{test.TestRunId}_{test.TestNumber}.mp4");
             capabilities.SetCapability("name", test.TestName);
